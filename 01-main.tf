@@ -1,7 +1,7 @@
 resource "digitalocean_kubernetes_cluster" "demo" {
   name    = "demo-cluster"
   region  = "nyc1"
-  version = "1.13.4-do.0"
+  version = "1.21.5-do.0"
 
   node_pool {
     name       = "demo-nodes"
